@@ -1,8 +1,9 @@
+/* eslint-disable import/first */
+require('./config/connection')
 import serverless from 'serverless-http'
 import express from 'express'
 import IndexRouter from './routes/index'
 import { error404, handlerErrors } from './middleware/errors'
-require('./config/connection')
 
 const app = express()
 

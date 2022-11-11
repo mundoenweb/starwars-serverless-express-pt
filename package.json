@@ -6,7 +6,7 @@
     "dev": "ts-node-dev src/bin/www.ts",
     "lint": "ts-standard",
     "tsc": "tsc",
-    "test": "jest --verbose --watch"
+    "test": "jest --verbose --watch --detectOpenHandles"
   },
   "dependencies": {
     "axios": "^1.1.3",
